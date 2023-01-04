@@ -2,10 +2,20 @@ using UnityEngine;
 
 public class movement : MonoBehaviour
 {
-    public float speed;
-    public float rotationSpeed;
-    public float jumpSpeed;
-    public float jumpButtonGracePeriod;
+    [SerializeField]
+    private float maximumSpeed;
+
+    [SerializeField]
+    private float rotationSpeed;
+
+    [SerializeField]
+    private float jumpSpeed;
+
+    [SerializeField]
+    private float jumpButtonGracePeriod;
+
+    [SerializeField]
+    private Transform cameraTransform;
 
     private Animator animator;
     private CharacterController characterController;
@@ -29,7 +39,18 @@ public class movement : MonoBehaviour
         float verticalInput = Input.GetAxis("Vertical");
 
         Vector3 movementDirection = new Vector3(horizontalInput, 0, verticalInput);
-        float magnitude = Mathf.Clamp01(movementDirection.magnitude) * speed;
+        float inputMagnitude = Mathf.Clamp01(movementDirection.magnitude);
+
+        if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+        {
+            inputMagnitude *= 2;
+        }
+
+        animator.SetFloat("Input Magnitude", inputMagnitude, 0.05f, Time.deltaTime);
+
+        float speed = inputMagnitude * maximumSpeed;
+        movementDirection = Quaternion.AngleAxis(cameraTransform.rotation.eulerAngles.y, Vector3.up) * movementDirection;
+        movementDirection.Normalize();
 
         ySpeed += Physics.gravity.y * Time.deltaTime;
 
@@ -60,28 +81,28 @@ public class movement : MonoBehaviour
             characterController.stepOffset = 0;
         }
 
-        Vector3 velocity = movementDirection * magnitude;
-        if (characterController.isGrounded)
-        {
-            velocity.y = 0;
-        }
-        else
-        {
-            velocity.y = ySpeed;
-        }
+        Vector3 velocity = movementDirection * speed;
+        velocity.y = ySpeed;
 
         characterController.Move(velocity * Time.deltaTime);
 
         if (movementDirection != Vector3.zero)
         {
-            animator.SetBool("IsMoving", true);
             Quaternion toRotation = Quaternion.LookRotation(movementDirection, Vector3.up);
 
             transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
         }
+    }
+
+    private void OnApplicationFocus(bool focus)
+    {
+        if (focus)
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+        }
         else
         {
-            animator.SetBool("IsMoving", false);
+            Cursor.lockState = CursorLockMode.None;
         }
     }
 }
