@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2099737106634133711}
   - component: {fileID: 7326869210188169177}
   - component: {fileID: 6002654129762765725}
+  - component: {fileID: 7363117812448647316}
   m_Layer: 0
   m_Name: Diamonds
   m_TagString: Untagged
@@ -59,6 +60,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7b36420b60f6224caaa12ee1a4e578c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &7363117812448647316
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6292262165894747375}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a11a276c7d05c404889e6605f90cc5dd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &9122018051734676530
 PrefabInstance:
   m_ObjectHideFlags: 0
