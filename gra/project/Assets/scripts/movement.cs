@@ -3,13 +3,16 @@ using UnityEngine;
 public class movement : MonoBehaviour
 {
     [SerializeField]
-    private float maximumSpeed;
-
-    [SerializeField]
     private float rotationSpeed;
 
     [SerializeField]
-    private float jumpSpeed;
+    private float jumpHeight;
+
+    [SerializeField]
+    private float gravityMultiplier;
+
+    [SerializeField]
+    private float jumpHorizontalSpeed;
 
     [SerializeField]
     private float jumpButtonGracePeriod;
@@ -23,6 +26,8 @@ public class movement : MonoBehaviour
     private float originalStepOffset;
     private float? lastGroundedTime;
     private float? jumpButtonPressedTime;
+    private bool isJumping;
+    private bool isGrounded;
 
     // Start is called before the first frame update
     void Start()
@@ -48,11 +53,17 @@ public class movement : MonoBehaviour
 
         animator.SetFloat("Input Magnitude", inputMagnitude, 0.05f, Time.deltaTime);
 
-        float speed = inputMagnitude * maximumSpeed;
         movementDirection = Quaternion.AngleAxis(cameraTransform.rotation.eulerAngles.y, Vector3.up) * movementDirection;
         movementDirection.Normalize();
 
-        ySpeed += Physics.gravity.y * Time.deltaTime;
+        float gravity = Physics.gravity.y * gravityMultiplier;
+
+        if (isJumping && ySpeed > 0 && Input.GetButton("Jump") == false)
+        {
+            gravity *= 2;
+        }
+
+        ySpeed += gravity * Time.deltaTime;
 
         if (characterController.isGrounded)
         {
@@ -68,10 +79,17 @@ public class movement : MonoBehaviour
         {
             characterController.stepOffset = originalStepOffset;
             ySpeed = -0.5f;
+            animator.SetBool("IsGrounded", true);
+            isGrounded = true;
+            animator.SetBool("IsJumping", false);
+            isJumping = false;
+            animator.SetBool("IsFalling", false);
 
             if (Time.time - jumpButtonPressedTime <= jumpButtonGracePeriod)
             {
-                ySpeed = jumpSpeed;
+                ySpeed = Mathf.Sqrt(jumpHeight * -3 * gravity);
+                animator.SetBool("IsJumping", true);
+                isJumping = true;
                 jumpButtonPressedTime = null;
                 lastGroundedTime = null;
             }
@@ -79,18 +97,44 @@ public class movement : MonoBehaviour
         else
         {
             characterController.stepOffset = 0;
+            animator.SetBool("IsGrounded", false);
+            isGrounded = false;
+
+            if ((isJumping && ySpeed < 0) || ySpeed < -2)
+            {
+                animator.SetBool("IsFalling", true);
+            }
         }
-
-        Vector3 velocity = movementDirection * speed;
-        velocity.y = ySpeed;
-
-        characterController.Move(velocity * Time.deltaTime);
 
         if (movementDirection != Vector3.zero)
         {
+            animator.SetBool("IsMoving", true);
+
             Quaternion toRotation = Quaternion.LookRotation(movementDirection, Vector3.up);
 
             transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
+        }
+        else
+        {
+            animator.SetBool("IsMoving", false);
+        }
+
+        if (isGrounded == false)
+        {
+            Vector3 velocity = movementDirection * inputMagnitude * jumpHorizontalSpeed;
+            velocity.y = ySpeed;
+
+            characterController.Move(velocity * Time.deltaTime);
+        }
+    }
+    private void OnAnimatorMove()
+    {
+        if (isGrounded)
+        {
+            Vector3 velocity = animator.deltaPosition;
+            velocity.y = ySpeed * Time.deltaTime;
+
+            characterController.Move(velocity);
         }
     }
 

@@ -382,8 +382,11 @@
 "Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Shared/Scripts/SpawnInCircle.cs"
 "Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Shared/Scripts/ThirdPersonFollowDistanceModifier.cs"
 "Assets/scripts/cameraFolow.cs"
+"Assets/scripts/Diamond.cs"
+"Assets/scripts/InventoryUI.cs"
 "Assets/scripts/meshColider.cs"
 "Assets/scripts/movement.cs"
+"Assets/scripts/PlayerInventory.cs"
 -langversion:9.0
 
 /deterministic
