@@ -381,6 +381,7 @@
 "Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Shared/Scripts/SimpleElevator.cs"
 "Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Shared/Scripts/SpawnInCircle.cs"
 "Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Shared/Scripts/ThirdPersonFollowDistanceModifier.cs"
+"Assets/scripts/BoredBehaviour.cs"
 "Assets/scripts/cameraFolow.cs"
 "Assets/scripts/Diamond.cs"
 "Assets/scripts/InventoryUI.cs"
