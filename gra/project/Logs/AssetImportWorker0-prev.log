@@ -15,7 +15,7 @@ C:/Users/trist/My project (1)
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54669
+52093
 Successfully changed project path to: C:/Users/trist/My project (1)
 C:/Users/trist/My project (1)
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/trist/My project (1)
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 128.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 80.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.3f1 (af2e63e8f9bd)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Resources/UnitySubsystems
@@ -63,92 +63,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56120
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007048 seconds.
+Registered in 0.003894 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 102.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 71.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.776 seconds
+- Completed reload, in  0.515 seconds
 Domain Reload Profiling:
-	ReloadAssembly (777ms)
-		BeginReloadAssembly (75ms)
+	ReloadAssembly (515ms)
+		BeginReloadAssembly (56ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (570ms)
-			LoadAssemblies (72ms)
+		EndReloadAssembly (371ms)
+			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (142ms)
+			SetupTypeCache (85ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (327ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (225ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (102ms)
+				RefreshPlugins (72ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (161ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
+				ProcessInitializeOnLoadAttributes (111ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005325 seconds.
+Registered in 0.003742 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\trist\My project (1)\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\trist\My project (1)\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.264 seconds
+- Completed reload, in  0.880 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1265ms)
-		BeginReloadAssembly (121ms)
+	ReloadAssembly (880ms)
+		BeginReloadAssembly (83ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1016ms)
-			LoadAssemblies (85ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (704ms)
+			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (358ms)
+			SetupTypeCache (231ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (458ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (333ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (313ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (225ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3571 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 39 unused Assets / (183.8 KB). Loaded Objects now: 4044.
-Memory consumption went from 140.2 MB to 140.0 MB.
-Total: 4.714800 ms (FindLiveObjects: 0.503500 ms CreateObjectMapping: 0.321500 ms MarkObjects: 3.674400 ms  DeleteObjects: 0.212600 ms)
+Unloading 3574 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (183.9 KB). Loaded Objects now: 4047.
+Memory consumption went from 140.3 MB to 140.1 MB.
+Total: 2.464300 ms (FindLiveObjects: 0.253300 ms CreateObjectMapping: 0.090600 ms MarkObjects: 2.009400 ms  DeleteObjects: 0.110100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,121 +162,521 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1591259.602020 seconds.
-  path: Assets/animations/Diamonds.controller
-  artifactKey: Guid(a11a276c7d05c404889e6605f90cc5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animations/Diamonds.controller using Guid(a11a276c7d05c404889e6605f90cc5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ebd84462f2b998a165db0edc07cef9') in 0.045539 seconds 
+  Time since last request: 1838019.904445 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de0209b6d9b5e47835e6d162b534872e') in 0.010034 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003923 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\trist\My project (1)\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\trist\My project (1)\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.105 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1105ms)
-		BeginReloadAssembly (127ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (889ms)
-			LoadAssemblies (72ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (296ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (410ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (273ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3550 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (151.0 KB). Loaded Objects now: 4059.
-Memory consumption went from 138.5 MB to 138.3 MB.
-Total: 3.044100 ms (FindLiveObjects: 0.299200 ms CreateObjectMapping: 0.155100 ms MarkObjects: 2.472300 ms  DeleteObjects: 0.116100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 23.489577 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Rose/gem_01.prefab
+  artifactKey: Guid(0b051b2bbb4f44d91a5211b94fd6a4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Rose/gem_01.prefab using Guid(0b051b2bbb4f44d91a5211b94fd6a4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7509796ba70e399a34efac913e078fd0') in 0.104326 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004601 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\trist\My project (1)\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\trist\My project (1)\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.349 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1350ms)
-		BeginReloadAssembly (165ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (1077ms)
-			LoadAssemblies (93ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (351ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (75ms)
-			SetupLoadedEditorAssemblies (485ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (333ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.40 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3550 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (151.0 KB). Loaded Objects now: 4074.
-Memory consumption went from 138.5 MB to 138.3 MB.
-Total: 4.344200 ms (FindLiveObjects: 0.464200 ms CreateObjectMapping: 0.411800 ms MarkObjects: 3.239100 ms  DeleteObjects: 0.226700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Aquamarine/gem_01.prefab
+  artifactKey: Guid(e57281496eb794b869233b35e17b19f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Aquamarine/gem_01.prefab using Guid(e57281496eb794b869233b35e17b19f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8562638dbd0691394f0cb3824d14f3') in 0.018535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.107367 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Purple/gem_01.prefab
+  artifactKey: Guid(3b7f703705f164793be0727d13b4cd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Purple/gem_01.prefab using Guid(3b7f703705f164793be0727d13b4cd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf6c228a8f09f123cc709e1aa15e384') in 0.016501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Green/gem_01.prefab
+  artifactKey: Guid(1a1bc33edb24341b18ff1595d90cd027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Green/gem_01.prefab using Guid(1a1bc33edb24341b18ff1595d90cd027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a27ad068761bba160fafba9899ebc2') in 0.020272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Yellow/gem_01.prefab
+  artifactKey: Guid(a93a78382743f49ac9e2a5f0450cc4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Yellow/gem_01.prefab using Guid(a93a78382743f49ac9e2a5f0450cc4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd763772dbec10753a542782f49baad') in 0.020071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Blue/gem_01.prefab
+  artifactKey: Guid(e2ddb8b460986445aaecb3880c7e2630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Blue/gem_01.prefab using Guid(e2ddb8b460986445aaecb3880c7e2630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f69821e51240bbca87d25613784932') in 0.021268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.299300 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Purple/gem_02.prefab
+  artifactKey: Guid(963302a8c88b945bfa8500292fa5937e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Purple/gem_02.prefab using Guid(963302a8c88b945bfa8500292fa5937e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a27f0e4713cf183c723bc8df3aa256') in 0.028017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Green/gem_02.prefab
+  artifactKey: Guid(4c4afc0bec6634b3494d16d79899f5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Green/gem_02.prefab using Guid(4c4afc0bec6634b3494d16d79899f5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec246a33c0ede358e24f08a86c7509b0') in 0.011999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.397534 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Blue/gem_02.prefab
+  artifactKey: Guid(0debf751836fe4f90902106393f2d6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Blue/gem_02.prefab using Guid(0debf751836fe4f90902106393f2d6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f769d4d78f923067e4a742e08e3ea2c') in 0.025870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Red/gem_02.prefab
+  artifactKey: Guid(5afac5f23b1954bc49a29867076d017d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Red/gem_02.prefab using Guid(5afac5f23b1954bc49a29867076d017d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd4a69ddb7267eec761d8beb3b64eab') in 0.012413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Red/gem_03.prefab
+  artifactKey: Guid(715a2cd91c2bf4451a7115ba41e3e0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Red/gem_03.prefab using Guid(715a2cd91c2bf4451a7115ba41e3e0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deed3754c3605355e487400854e762c5') in 0.027402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005868 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Aquamarine/gem_03.prefab
+  artifactKey: Guid(6f8b227a294a042a1b5c03e15e9be2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Aquamarine/gem_03.prefab using Guid(6f8b227a294a042a1b5c03e15e9be2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6165094ed57243d08de7869fc99afa') in 0.021255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.123263 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Rose/gem_03.prefab
+  artifactKey: Guid(3a51ec676a16f4b679bfcb0082b13d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Rose/gem_03.prefab using Guid(3a51ec676a16f4b679bfcb0082b13d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ba9f8f1b6331896f88b7efd6a068bb') in 0.012106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Pink/gem_03.prefab
+  artifactKey: Guid(ca3c4eb73632b47f9b72cc7b3ff40998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Pink/gem_03.prefab using Guid(ca3c4eb73632b47f9b72cc7b3ff40998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124bc9235a96b2800ea1c0aa35314184') in 0.012903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002532 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Purple Dark/gem_03.prefab
+  artifactKey: Guid(25e6b4dddf5c54119897d1b0ce902a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Purple Dark/gem_03.prefab using Guid(25e6b4dddf5c54119897d1b0ce902a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900647bb3d050055ecff7573c21f23fa') in 0.015119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Green/gem_03.prefab
+  artifactKey: Guid(9888242a4c3284a07b5f10b67ef32aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Green/gem_03.prefab using Guid(9888242a4c3284a07b5f10b67ef32aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbdb1393d01a158545ea096a76a873b2') in 0.015181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.362266 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Red/gem_04.prefab
+  artifactKey: Guid(f903330e61736465381ea3a8cebaaa25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Red/gem_04.prefab using Guid(f903330e61736465381ea3a8cebaaa25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0878a70138afb77e8c9aa3f643ae3593') in 0.019734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017612 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Purple/gem_04.prefab
+  artifactKey: Guid(94fda5ed9a5ee44e1ae22b5c91a5c35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Purple/gem_04.prefab using Guid(94fda5ed9a5ee44e1ae22b5c91a5c35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c455650cb49961f87cad8dd10fb4401') in 0.015853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Aquamarine/gem_04.prefab
+  artifactKey: Guid(d31e493ab3a644b2aa04c555917e3dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Aquamarine/gem_04.prefab using Guid(d31e493ab3a644b2aa04c555917e3dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0146a8852178e9f8aca774b99d9fa2cf') in 0.013514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.317902 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Green/gem_04.prefab
+  artifactKey: Guid(d8a1a743a35704dbcb483386dc7c9bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Green/gem_04.prefab using Guid(d8a1a743a35704dbcb483386dc7c9bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd8955b2bbd1ae8ec4509224c981631') in 0.025424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Pink/gem_04.prefab
+  artifactKey: Guid(eab4abe6f8de141a38fac6bc30739d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Pink/gem_04.prefab using Guid(eab4abe6f8de141a38fac6bc30739d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c59e4d84b47c0b4b404bb6ddce0ea4b') in 0.011460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012342 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Blue/gem_05.prefab
+  artifactKey: Guid(c2f075ce50385459c8aba6ba09ac5737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Blue/gem_05.prefab using Guid(c2f075ce50385459c8aba6ba09ac5737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53339944752f2e8aa9049d84879defbb') in 0.013341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Yellow/gem_05.prefab
+  artifactKey: Guid(e2b8281ba1531457784491e4bb343778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Yellow/gem_05.prefab using Guid(e2b8281ba1531457784491e4bb343778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4349c32b3931adf53db5dbea410c01c') in 0.013596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Purple/gem_05.prefab
+  artifactKey: Guid(156b55a5936134c00ae0e47553cc06de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Purple/gem_05.prefab using Guid(156b55a5936134c00ae0e47553cc06de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5f2040e58ccf9e3274ced383f6e8eb') in 0.013381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.146798 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Rose/gem_05.prefab
+  artifactKey: Guid(b45c68efe52634d158b9f6f5a7416196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Rose/gem_05.prefab using Guid(b45c68efe52634d158b9f6f5a7416196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22fc2647b00c792830f7d1d9c1142ad7') in 0.013390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001736 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Pink/gem_05.prefab
+  artifactKey: Guid(135bf2995d32748c0b7c5b62a4bf49ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Pink/gem_05.prefab using Guid(135bf2995d32748c0b7c5b62a4bf49ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36f14bc92c1c4fea9f5f1b84786b67e') in 0.012515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Pink/gem_06.prefab
+  artifactKey: Guid(59a55ed902aa34ae58114d62ecacb826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Pink/gem_06.prefab using Guid(59a55ed902aa34ae58114d62ecacb826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c11aa1c09f5e92b4764f163c5b8dbf5') in 0.024437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.199139 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Purple Dark/gem_06.prefab
+  artifactKey: Guid(59ec749af0743488e8df0fbe08c79006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Purple Dark/gem_06.prefab using Guid(59ec749af0743488e8df0fbe08c79006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9ca43da6c1d390a0897bd153547917') in 0.011308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Yellow/gem_06.prefab
+  artifactKey: Guid(4bec6aa81f487411cb47535d9529ef14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Yellow/gem_06.prefab using Guid(4bec6aa81f487411cb47535d9529ef14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b73899af43cf79d3eb1bf94f79bc6b3') in 0.011191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Green/gem_06.prefab
+  artifactKey: Guid(d1f91377a536f44398ad89f1eceb5ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Green/gem_06.prefab using Guid(d1f91377a536f44398ad89f1eceb5ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1271fa066602ac669f3e623ebf35b06') in 0.014905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002152 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Blue/gem_06.prefab
+  artifactKey: Guid(5d8d0d23bc2224f2596290b98b42a302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Blue/gem_06.prefab using Guid(5d8d0d23bc2224f2596290b98b42a302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d47e2bfa54be13640ebfa484d12582c') in 0.012775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Orange/gem_07.prefab
+  artifactKey: Guid(ca95adba1ac204beda44630e4504b71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Orange/gem_07.prefab using Guid(ca95adba1ac204beda44630e4504b71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c1d4f9bbc4e37d12786057a669ccd5') in 0.020741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Aquamarine/gem_06.prefab
+  artifactKey: Guid(b38b80f397dbc40c1a0cd2e9c5abd063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Aquamarine/gem_06.prefab using Guid(b38b80f397dbc40c1a0cd2e9c5abd063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19da81373a79901f18f23c054d202b81') in 0.013712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.117858 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Rose/gem_07.prefab
+  artifactKey: Guid(add347f5c3cc94c71b3edc2a5971c778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Rose/gem_07.prefab using Guid(add347f5c3cc94c71b3edc2a5971c778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26b08f6b65141928a9e1ffac10eccac') in 0.013950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Yellow/gem_07.prefab
+  artifactKey: Guid(420a9f344d42442d498fa2669f5a745f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Yellow/gem_07.prefab using Guid(420a9f344d42442d498fa2669f5a745f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7984a7bd1b2a9989e557e214a8ef39e0') in 0.015637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Purple Dark/gem_07.prefab
+  artifactKey: Guid(ce0346bbe493c4c09a23bf95bb0ded72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Purple Dark/gem_07.prefab using Guid(ce0346bbe493c4c09a23bf95bb0ded72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3b793f523eea1af39ca7d356070ac6') in 0.013009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Purple/gem_07.prefab
+  artifactKey: Guid(3468aaf93e40c4920924867f04931a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Purple/gem_07.prefab using Guid(3468aaf93e40c4920924867f04931a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fec73c353ec868f593c97eff263d4f9') in 0.014670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Blue/gem_07.prefab
+  artifactKey: Guid(6334a3f7ca82543839609f106b01f331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Blue/gem_07.prefab using Guid(6334a3f7ca82543839609f106b01f331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b731d4b66a5b4085b4ea476227003657') in 0.015385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.107679 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Red/gem_08.prefab
+  artifactKey: Guid(3bcd5b4d4d38240048bb0487514cc399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Red/gem_08.prefab using Guid(3bcd5b4d4d38240048bb0487514cc399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5b8fddb9c71f3071ec26402f40b557') in 0.012667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001302 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Yellow/gem_08.prefab
+  artifactKey: Guid(3394356637fef427a8d6ae0d658056bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Yellow/gem_08.prefab using Guid(3394356637fef427a8d6ae0d658056bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa26f0979f0a73443bc7b804dc83d61') in 0.013839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003345 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Purple/gem_08.prefab
+  artifactKey: Guid(7c92b546ac6874e9da59a98abbcfc358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Purple/gem_08.prefab using Guid(7c92b546ac6874e9da59a98abbcfc358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b7b3821de927501c39737b29b1e418') in 0.014184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Orange/gem_08.prefab
+  artifactKey: Guid(42a1c564e660f4c81b10ac155477e564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Orange/gem_08.prefab using Guid(42a1c564e660f4c81b10ac155477e564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c1506d02a32822952ed00e19c924b0') in 0.014681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Pink/gem_08.prefab
+  artifactKey: Guid(da0a7ea9485514052824ed31195d0130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Pink/gem_08.prefab using Guid(da0a7ea9485514052824ed31195d0130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c923469f658748e2ca8d706551fb0bd8') in 0.013994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.118677 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Blue/gem_08.prefab
+  artifactKey: Guid(fba86566244f643ce94d8d0c62a64300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Blue/gem_08.prefab using Guid(fba86566244f643ce94d8d0c62a64300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc07ad0576fbe1913d6c155b75e7f9f6') in 0.013592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Aquamarine/gem_08.prefab
+  artifactKey: Guid(2744ee55417394c98a83058343201766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Aquamarine/gem_08.prefab using Guid(2744ee55417394c98a83058343201766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cacf6cf2365134684a0116c7547d5de') in 0.011910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Blue/gem_09.prefab
+  artifactKey: Guid(3a4bbcb92601e45c98e08f8e54caf526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Blue/gem_09.prefab using Guid(3a4bbcb92601e45c98e08f8e54caf526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e7f26f61e7ab284df611c722606f7a') in 0.012062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Yellow/gem_09.prefab
+  artifactKey: Guid(1e0dd1d8bb0424f91a6df1a263717065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Yellow/gem_09.prefab using Guid(1e0dd1d8bb0424f91a6df1a263717065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8936358c3518dd157395df6eed2f75') in 0.014292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Pink/gem_09.prefab
+  artifactKey: Guid(d1630e2054dd745de93ab235533c8938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Pink/gem_09.prefab using Guid(d1630e2054dd745de93ab235533c8938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6fc4f9acd095baf8ff880b15e58c53f') in 0.014156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.613372 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Aquamarine/gem_09.prefab
+  artifactKey: Guid(b4e84aed159f24705af995d36fcd71b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Aquamarine/gem_09.prefab using Guid(b4e84aed159f24705af995d36fcd71b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc0f3587647d7547a76aa6453ab21a2') in 0.024504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Rose/gem_09.prefab
+  artifactKey: Guid(ad499570c1a5946fc855cb54bea99d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Rose/gem_09.prefab using Guid(ad499570c1a5946fc855cb54bea99d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa648823e4cbaa5b640e83de79659fd0') in 0.011660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Purple/gem_10.prefab
+  artifactKey: Guid(4dc404dd57e194aae8e470c48e5adf0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Purple/gem_10.prefab using Guid(4dc404dd57e194aae8e470c48e5adf0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d799b37b2e368e9680841fef498ad11') in 0.019421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Rose/gem_10.prefab
+  artifactKey: Guid(7040b353c8c8645a28e6416bc44c7ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Rose/gem_10.prefab using Guid(7040b353c8c8645a28e6416bc44c7ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4426238d4e495f1305b243cf46952aaf') in 0.015496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Orange/gem_10.prefab
+  artifactKey: Guid(1959a6ccba9c44ebea57ecafaa97dbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Orange/gem_10.prefab using Guid(1959a6ccba9c44ebea57ecafaa97dbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0cef7167371d6b3caa10df4aa102709') in 0.013092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Orange/gem_11.prefab
+  artifactKey: Guid(7357f5fc80f184434814a6d6ac94b854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Orange/gem_11.prefab using Guid(7357f5fc80f184434814a6d6ac94b854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd8978d4e8fcbe0e2402d0560ff23b8') in 0.020057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Purple/gem_11.prefab
+  artifactKey: Guid(c15d0c985b7ed4c8498e9afa2cc2b735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Purple/gem_11.prefab using Guid(c15d0c985b7ed4c8498e9afa2cc2b735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4e34260b8f2c7c3176519885280922') in 0.012500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Red/gem_12.prefab
+  artifactKey: Guid(7b1074fc17636495ab9525934fd57e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Red/gem_12.prefab using Guid(7b1074fc17636495ab9525934fd57e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfaac081979831bc4cb31a80cadbbf31') in 0.023501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Yellow/gem_11.prefab
+  artifactKey: Guid(42bc3375af2ee485fadf06a3cd3f0785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Yellow/gem_11.prefab using Guid(42bc3375af2ee485fadf06a3cd3f0785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afcea8ea2ca7600abf205f797315431b') in 0.012080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Yellow/gem_12.prefab
+  artifactKey: Guid(8856134cda8dd4fc88e975aa885e4827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Yellow/gem_12.prefab using Guid(8856134cda8dd4fc88e975aa885e4827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18df6bfbed19194390e0368926917537') in 0.015868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Blue/gem_11.prefab
+  artifactKey: Guid(7f2010831db054be8983284f093c1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Blue/gem_11.prefab using Guid(7f2010831db054be8983284f093c1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c3f54fc7c5a86b6f8a2a6b9edda7b6') in 0.016348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Pink/gem_12.prefab
+  artifactKey: Guid(20347b4759ad54659bc6ba8ff8a03096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Pink/gem_12.prefab using Guid(20347b4759ad54659bc6ba8ff8a03096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55aeb3645aa261fb589c790daa6b8160') in 0.016377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018779 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Purple Dark/gem_13.prefab
+  artifactKey: Guid(b8178b44fa367463eb280faf4ebfe9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Purple Dark/gem_13.prefab using Guid(b8178b44fa367463eb280faf4ebfe9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524766cb5ce2d09173f289260a9e9b12') in 0.020286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Blue/gem_13.prefab
+  artifactKey: Guid(7f3ce97fcc2b44479877e7e46f36ce1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Blue/gem_13.prefab using Guid(7f3ce97fcc2b44479877e7e46f36ce1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a346d49083328d31961583e6697d0233') in 0.016774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Green/gem_13.prefab
+  artifactKey: Guid(a554db6cb519d450d8e26232783b48eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Green/gem_13.prefab using Guid(a554db6cb519d450d8e26232783b48eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a5acf4e7471b183af55fca019a2a692') in 0.015696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002053 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Red/gem_15.prefab
+  artifactKey: Guid(12363f225923640f0b3aa92406c6a1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Red/gem_15.prefab using Guid(12363f225923640f0b3aa92406c6a1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97235290684f886374d928bb05bec3f') in 0.019402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Purple/gem_15.prefab
+  artifactKey: Guid(67931a15141fe401aa5d7ec15a4d7daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Purple/gem_15.prefab using Guid(67931a15141fe401aa5d7ec15a4d7daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '130de815889c696b3523333b0909c088') in 0.014696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Yellow/gem_15.prefab
+  artifactKey: Guid(fa3469c29ecae4a8eb2788bd5fda7c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Yellow/gem_15.prefab using Guid(fa3469c29ecae4a8eb2788bd5fda7c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c465f7390bb52d9b47ba62acceec583') in 0.013832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Aquamarine/gem_16.prefab
+  artifactKey: Guid(db74795c995e14120867d17d28adeead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Aquamarine/gem_16.prefab using Guid(db74795c995e14120867d17d28adeead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07f6df1fa987e52e1c794d05d1cfbc6') in 0.014418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Purple/gem_16.prefab
+  artifactKey: Guid(15619e560320b48338dbdfcb12910330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Purple/gem_16.prefab using Guid(15619e560320b48338dbdfcb12910330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807f7c77987ed87e97889859794ba068') in 0.016016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Red/gem_17.prefab
+  artifactKey: Guid(381c30b6d7bd64ac198546e129599840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Red/gem_17.prefab using Guid(381c30b6d7bd64ac198546e129599840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e056cfaf0d5f7874adcd2539f4f2644c') in 0.026677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008700 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Pink/gem_17.prefab
+  artifactKey: Guid(f5d5eeb4e36ef4db3a17bfb1925d8578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Pink/gem_17.prefab using Guid(f5d5eeb4e36ef4db3a17bfb1925d8578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8191884ffef805f3801bc3436b2026a') in 0.017657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005821 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Purple Dark/gem_17.prefab
+  artifactKey: Guid(e070a5e7f5d5b45aeae0efa8411620d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Purple Dark/gem_17.prefab using Guid(e070a5e7f5d5b45aeae0efa8411620d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191f12fcc58524fa2c213b69f5ea96e3') in 0.014979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Blue/gem_17.prefab
+  artifactKey: Guid(0452e9865fd3e49518f9d1b77790e134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Blue/gem_17.prefab using Guid(0452e9865fd3e49518f9d1b77790e134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74ea27558a7c4bf2eb76d719ba060d0') in 0.014280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004009 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Rose/gem_18.prefab
+  artifactKey: Guid(3ab60a1b4a327467b8f7c62ade69068e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Rose/gem_18.prefab using Guid(3ab60a1b4a327467b8f7c62ade69068e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd9d384c5dfceb082e83efd8c84a579') in 0.019411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Purple Dark/gem_18.prefab
+  artifactKey: Guid(1b3c77dae195f4fe3885e97a72422f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Purple Dark/gem_18.prefab using Guid(1b3c77dae195f4fe3885e97a72422f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651b18138e4cc0d683011a3ba518cf6f') in 0.016339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_10x10.fbx
+  artifactKey: Guid(47d4df8e0a6e85a4c8448ec117ba07df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_10x10.fbx using Guid(47d4df8e0a6e85a4c8448ec117ba07df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d88842b4dd3ac7d0b8cba70ff2ff236') in 0.092395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Wall_10x4.fbx
+  artifactKey: Guid(8801006d6478aea478f9320df4476f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Wall_10x4.fbx using Guid(8801006d6478aea478f9320df4476f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5c4dd1b788e4af5490814d28b8406f') in 0.032664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Scenes/Trigger volumes/Trigger cube.prefab
+  artifactKey: Guid(eb2690c0771f68c48823fc4a7816d734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Scenes/Trigger volumes/Trigger cube.prefab using Guid(eb2690c0771f68c48823fc4a7816d734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa1d64f6e1213e1b5fc4969fc807294') in 0.016161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_10x10_BluePedestal.fbx
+  artifactKey: Guid(fb8b35ae430517a4989c461955168bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_10x10_BluePedestal.fbx using Guid(fb8b35ae430517a4989c461955168bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab9c7076d5ecc545229edf3da5e7a2f9') in 0.035575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.946743 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Red/gem_18.prefab
+  artifactKey: Guid(666b183738d884820a8f09481e17a695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Red/gem_18.prefab using Guid(666b183738d884820a8f09481e17a695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d99766cf3ad17e5f4fef24c457df35') in 0.014353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.123217 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Aquamarine/gem_18.prefab
+  artifactKey: Guid(1f6af2a22ef4d4cc78f5a2a72cc3786e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Aquamarine/gem_18.prefab using Guid(1f6af2a22ef4d4cc78f5a2a72cc3786e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0529f046fde63cc90b0da3013a7e8118') in 0.045900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.576966 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Blue/gem_15.prefab
+  artifactKey: Guid(93adac3913a044eeeb245bb064c4bbc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Blue/gem_15.prefab using Guid(93adac3913a044eeeb245bb064c4bbc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd4fab1d2282e93fedcd06c05ed2d2b') in 0.011298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Green/gem_15.prefab
+  artifactKey: Guid(df36a8ea4f107484793dd470849a29b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Green/gem_15.prefab using Guid(df36a8ea4f107484793dd470849a29b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06757ec1995370fb01717cd3dd5e506') in 0.013561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007305 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Blue/gem_14.prefab
+  artifactKey: Guid(0e2212078f3fe4e5f90dee2a583bee08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Blue/gem_14.prefab using Guid(0e2212078f3fe4e5f90dee2a583bee08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a61368f94b3aa7759dc99fe6c6655af8') in 0.012780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.375187 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Yellow/gem_14.prefab
+  artifactKey: Guid(7c4e34cae855f45378f2973686ae5df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Yellow/gem_14.prefab using Guid(7c4e34cae855f45378f2973686ae5df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f977f77289fba516ee93133cd7d08c22') in 0.011900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.808124 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Blue/gem_12.prefab
+  artifactKey: Guid(441f61e7c4d364a2bbebb81309346cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Blue/gem_12.prefab using Guid(441f61e7c4d364a2bbebb81309346cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44aa6cd0c6704bb572c8bf6325ad208f') in 0.011073 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

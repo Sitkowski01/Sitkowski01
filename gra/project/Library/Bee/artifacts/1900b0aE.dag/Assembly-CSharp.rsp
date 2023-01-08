@@ -385,6 +385,8 @@
 "Assets/scripts/cameraFolow.cs"
 "Assets/scripts/Diamond.cs"
 "Assets/scripts/InventoryUI.cs"
+"Assets/scripts/MainMenu.cs"
+"Assets/scripts/Menuu.cs"
 "Assets/scripts/meshColider.cs"
 "Assets/scripts/movement.cs"
 "Assets/scripts/PlayerInventory.cs"

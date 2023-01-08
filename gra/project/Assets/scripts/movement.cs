@@ -28,6 +28,7 @@ public class movement : MonoBehaviour
     private float? jumpButtonPressedTime;
     private bool isJumping;
     private bool isGrounded;
+    int enemyHealth;
 
     // Start is called before the first frame update
     void Start()
@@ -147,6 +148,19 @@ public class movement : MonoBehaviour
         else
         {
             Cursor.lockState = CursorLockMode.None;
+        }
+    }
+    public void TakeDamage(int damage)
+    {
+        // Reduce the object's health by the amount of damage taken
+        enemyHealth -= damage;
+
+        // Check if the object's health has reached 0
+        if (enemyHealth <= 0)
+        {
+            // Trigger the object's death animation and destroy the game object
+            GetComponent<Animation>().Play("Death");
+            Destroy(gameObject);
         }
     }
 }
