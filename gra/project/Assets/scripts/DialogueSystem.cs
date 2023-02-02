@@ -46,6 +46,7 @@ public class DialogueSystem: MonoBehaviour {
         if (dialogueActive == true)
         {
             dialogueGUI.SetActive(false);
+           
         }
     }
 
@@ -97,6 +98,9 @@ public class DialogueSystem: MonoBehaviour {
             }
             dialogueEnded = false;
             dialogueActive = false;
+            // DropDialogue();
+        }
+        else{
             DropDialogue();
         }
     }
@@ -163,7 +167,7 @@ public class DialogueSystem: MonoBehaviour {
         {
             letterIsMultiplied = false;
             dialogueActive = false;
-            StopAllCoroutines();
+            StopAllCoroutines();            
             dialogueGUI.SetActive(false);
             dialogueBoxGUI.gameObject.SetActive(false);
         }
