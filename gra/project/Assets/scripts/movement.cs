@@ -1,4 +1,7 @@
 using UnityEngine;
+using System;
+using System.Collections;
+using System.Diagnostics;
 
 public class movement : MonoBehaviour
 {
@@ -28,6 +31,7 @@ public class movement : MonoBehaviour
     private float? jumpButtonPressedTime;
     private bool isJumping;
     private bool isGrounded;
+    private bool isAttacking;
     int enemyHealth;
 
     // Start is called before the first frame update
@@ -74,6 +78,20 @@ public class movement : MonoBehaviour
         if (Input.GetButtonDown("Jump"))
         {
             jumpButtonPressedTime = Time.time;
+        }
+
+        if (Input.GetMouseButtonDown(0))     //attack check
+        {
+            isAttacking = true;
+        }
+        if (isAttacking)
+        {
+            isAttacking = false;
+            animator.SetBool("isAttacking", true);
+        }
+        else
+        {
+            animator.SetBool("isAttacking", false);
         }
 
         if (Time.time - lastGroundedTime <= jumpButtonGracePeriod)
