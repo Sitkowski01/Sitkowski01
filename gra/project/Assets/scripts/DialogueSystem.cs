@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
 
-public class DialogueSystem: MonoBehaviour {
+public class DialogueSystem : MonoBehaviour
+{
 
     public Text nameText;
     public Text dialogueText;
@@ -46,7 +47,6 @@ public class DialogueSystem: MonoBehaviour {
         if (dialogueActive == true)
         {
             dialogueGUI.SetActive(false);
-           
         }
     }
 
@@ -98,9 +98,6 @@ public class DialogueSystem: MonoBehaviour {
             }
             dialogueEnded = false;
             dialogueActive = false;
-            // DropDialogue();
-        }
-        else{
             DropDialogue();
         }
     }
@@ -155,7 +152,7 @@ public class DialogueSystem: MonoBehaviour {
     }
 
     public void DropDialogue()
-    {       
+    {
         dialogueGUI.SetActive(false);
         dialogueBoxGUI.gameObject.SetActive(false);
     }
@@ -167,7 +164,7 @@ public class DialogueSystem: MonoBehaviour {
         {
             letterIsMultiplied = false;
             dialogueActive = false;
-            StopAllCoroutines();            
+            StopAllCoroutines();
             dialogueGUI.SetActive(false);
             dialogueBoxGUI.gameObject.SetActive(false);
         }

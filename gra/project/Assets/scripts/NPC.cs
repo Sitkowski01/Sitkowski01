@@ -4,7 +4,8 @@ using UnityEngine.UI;
 using UnityEngine;
 
 [System.Serializable]
-public class NPC : MonoBehaviour {
+public class NPC : MonoBehaviour
+{
 
     public Transform ChatBackGround;
     public Transform NPCCharacter;
@@ -16,14 +17,16 @@ public class NPC : MonoBehaviour {
     [TextArea(5, 10)]
     public string[] sentences;
 
-    void Start () {
+    void Start()
+    {
         dialogueSystem = FindObjectOfType<DialogueSystem>();
     }
-	
-	void Update () {
-          Vector3 Pos = Camera.main.WorldToScreenPoint(NPCCharacter.position);
-          Pos.y += 175;
-          ChatBackGround.position = Pos;
+
+    void Update()
+    {
+        Vector3 Pos = Camera.main.WorldToScreenPoint(NPCCharacter.position);
+        Pos.y += 175;
+        ChatBackGround.position = Pos;
     }
 
     public void OnTriggerStay(Collider other)
