@@ -21,7 +21,7 @@ subscriptions and paying users — the AI runs in the product, not in a notebook
 
 `React Native` `Expo` `TypeScript` `Gemini` `Firebase` `RevenueCat`
 
-[Live demo](ADD-GOOGLE-PLAY-LINK) · [Privacy & terms](https://github.com/Sitkowski01/skanerbiznes-legal) · Source is private — happy to walk through it
+[Get it on Google Play](https://play.google.com/store/apps/details?id=com.skanerbiznes.app) · [Privacy & terms](https://github.com/Sitkowski01/skanerbiznes-legal) · Source is private — happy to walk through it
 
 ### 🧩 MJGweb — nine client sites on one custom CMS
 Small businesses need to edit their own content without touching code and without paying
@@ -39,7 +39,7 @@ API, and spatial queries run in PostGIS.
 
 `Next.js 15` `FastAPI` `PostgreSQL + PostGIS` `OpenAI` `Google Maps`
 
-[Live demo](ADD-LINK-OR-DELETE-THIS) · Source is private — happy to walk through it
+Source is private — happy to walk through it
 
 ### 🏥 AI medical triage — master's thesis
 Triage decisions are made under time pressure with incomplete information. Full cycle from
@@ -57,7 +57,7 @@ app and web panel, all containerised.
 
 `NestJS` `Prisma` `Tesseract OCR` `Expo` `Docker`
 
-[Live demo](ADD-LINK-OR-DELETE-THIS) · Source is private — happy to walk through it
+Source is private — happy to walk through it
 
 ### 🕹️ Pixel Bites — WebGL restaurant landing page
 A landing page that has to be memorable in three seconds. Pixel-art arcade art direction
